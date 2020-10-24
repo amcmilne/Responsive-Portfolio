@@ -14,89 +14,95 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 
+<nav class="navbar navbar-expand navbar-light" style="background-color: plum">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <a class="navbar-brand" href="./index.html">Ann Cooper-Milne</a>
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="./index.html">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./contacts.html">Contact Us</a>
+            </li>
+            <li class="nav-item"> <a class="nav-link" href="./portfolio.html"> Portfolio</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Go To
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="./index.html">Home</a>
+                    <a class="dropdown-item" href="./contacts.html">Contact Us</a>
+                    <a class="dropdown-item" href="./portfolio.html">Portfolio</a>
+                </div>
+            </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+    </div>
+</nav>
+
 <body>
-
-    <style>
-        /* Modify the background color */
-
-        .navbar-custom {
-            background-color: gray;
-        }
-
-        /* Modify brand and text color */
-
-        .navbar-custom .navbar-brand,
-        .navbar-custom .navbar-text {
-            color: rgb(20, 20, 20);
-        }
-
-        .navbar-custom .nav-link {
-            color: rgb(33, 34, 33);
-        }
-    </style>
-    <nav class="navbar navbar-expand navbar-custom">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <a class="navbar-brand" href="./index.html">Ann Cooper-Milne</a>
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="./index.html">Home<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./contacts.html">Contact Us</a>
-                </li>
-                <li class="nav-item"> <a class="nav-link" href="./portfolio.html"> Portfolio</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Go To
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="./index.html">Home</a>
-                        <a class="dropdown-item" href="./contacts.html">Contact Us</a>
-                        <a class="dropdown-item" href="./portfolio.html">Portfolio</a>
-                    </div>
-                </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
-        </div>
-    </nav>
-
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12">
                 <div class="media" id="About Me">
                     <div class="media-body">
                         <h1 class="mt-0">About Me</h1>
+                        <img src="./images/amcm2.jpg" class="img-responsive float-right mr-5 mb-1" alt="headshot">
                         <p>
-                            <img src="./images/amcm.jpg" class="img-responsive float-left mr-5 mb-1" alt="headshot">
+
                             My Name is Ann Cooper-Milne. I have a Bachelor of Science in Athletic Training and an
                             Associate of Applied Science is Physical Therapy Assisting. In combination, I have practiced
-                            over 16
-                            years.
-                            I currently work in an outpatient physical therapy setting. </p>
+                            over 16 years. I currently work in an outpatient physical therapy setting. </p>
                         <p> Along with my 2 degrees, I am certifed in Integrative Dry Needling and Instrument Assisted
                             Soft Tissue Mobilization through Smart Tools Plus. Why am I leaving healthcare you ask?
-                            Well, I
-                            don't intend on leaving healthcare, rather I want to expand my knowledge and begin working
-                            in
-                            other areas of the healthcare industry. I am certain with my healthcare knowledge I can help
-                            an
-                            up and coming healthcare business provide a better user experience.</p>
+                            Well, I don't intend on leaving healthcare, rather I want to expand my knowledge and begin
+                            working
+                            in other areas of the healthcare industry. I am certain with my healthcare knowledge I can
+                            help
+                            an up and coming healthcare business provide a better user experience.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <h1 class="mt-0">For more about me...</h1>
+                        <ul class="list-group">
+                            <a class="nav-link" href="https://www.facebook.com/amcmilne/">facebook</a>
+                            <a class="nav-link" href="https://www.instagram.com/amcmilne/">instagram</a>
+                            <a class="nav-link" href="https://www.linkedin.com/in/amcmilneptaat/">linkedin</a>
+                        </ul>
                     </div>
                 </div>
             </div>
+
         </div>
     </div>
-   
+    <div class="row">
+        <div class="col-12">
+            <nav class="navbar fixed-bottom navbar-expand navbar-light" style="background-color: plum">
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <a class="navbar-brand" href="./index.html">Ann Cooper-Milne</a>
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                        </li>
+                </div>
+        </div>
+    </div>
 </body>
 
 </html>
